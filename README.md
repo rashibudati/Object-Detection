@@ -1,8 +1,6 @@
 # Object-Detection
 A simple experiment to practice object detection via webcam using YOLO2. 
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
-
 # Video analysis demo
 
 ## Requirements
@@ -13,9 +11,8 @@ A simple experiment to practice object detection via webcam using YOLO2.
 * pafy (for direct video links)
 
 
-All requirements are listed in [requirements](requirements.txt) file, ~~except _openCV_ (because of video support described [here](https://pypi.python.org/pypi/opencv-python#frequently-asked-questions), [here](https://github.com/skvark/opencv-python/issues/49) and [here](https://github.com/skvark/opencv-python/issues/50))~~
-
-So ~~(almost)~~ all required packages can be installed by _pip_
+All requirements are listed in [requirements](requirements.txt) file, 
+So  all required packages can be installed by _pip_
 
 **Update:** Since [this](https://github.com/skvark/opencv-python/releases/tag/11) release opencv-python ships with FFmpeg, V4L and V4L2. So i have added it to [requirements](requirements.txt).
 ```bash
